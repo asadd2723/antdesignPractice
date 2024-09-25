@@ -2,6 +2,7 @@ import Buttons from "./components/Button"
 import FormComponent from "./components/FormComponent"
 import InputField from "./components/InputField"
 import SelectandOption from "./components/SelectandOption"
+import UseReducerPractice from "./components/UseReducerPractice"
 
 
 function App() {
@@ -12,6 +13,9 @@ function App() {
       <InputField />
       <SelectandOption />
       <FormComponent />
+      <hr className="text-white" />
+      <h1>useReducer Practice</h1>
+      <UseReducerPractice />
     </div>
   )
 }
